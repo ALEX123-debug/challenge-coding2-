@@ -4,22 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
    <section class="hero ">
-     <header class=" h-28 w-full bg-red-500 flex justify-around">
+     <header class="fixed h-28 w-full bg-blue-950 bg-opacity-5 flex justify-around ">
         <img src="images/logo.png" alt="logo" class="w-1/5 h">
         <nav  class="flex"> 
-             <ul class="flex items-center">
-                 <li class="mr-10 text-blue-900"><a href="">Accueil</a></li> 
-                 <li class="mr-10 text-white"><a href="">A propos</a></li>
-                 <li class="mr-10 text-white"><a href="">Service</a></li>
-                 <li class="mr-10 text-white"><a href="">Contact</a></li>
-                 <li class="mr-10 text-white"><a href="">Visiter</a></li>
+             <ul class="flex items-center wrap">
+                 <li class="mr-10 text-blue-900 "><a href="">Accueil</a></li> 
+                 <li class="mr-10 text-white hover:text-blue-900"><a href="">A propos</a></li>
+                 <li class="mr-10 text-white hover:text-blue-900"><a href="">Service</a></li>
+                 <li class="mr-10 text-white hover:text-blue-900"><a href="">Contact</a></li>
+                 <li class="mr-10 text-white border-solid border-2 border-blue-900 pt-2 pb-2 pr-6 pl-6 rounded-full hover:bg-blue-950 pt-2 pb-2 pr-6 pl-6"><a href="">Visiter !</a></li>
              </ul>
         </nav>
        </header>
+       <div class="flex flex-wrap w-full h-screen bg-gradient-to-r from-blue-200 to-blue-900 place-content-center items-center" >
+        <div class="text-white mr-20 p-10 w-fit h-1/2">
+            <h1 class="text-6xl uppercase">Achat et Vente de <br>Maisons</h1><br>
+            <p class=" text-xl">Trouvez votre chez-vous idéal, vendez avec facilité! <br>
+              Achetez et vendez des maisons en toute simplicité <br>
+              avec notre application! <br>
+              <span class="text-xl font-bold">Inscrivez-vous maintenant pour ne rien manquer <br>
+                du lancement de notre application !</span>
+            </p>
+            <br>
+           <p class="flex items-center">
+            <a href="#" class=" bg-blue-950 pt-2 pb-2 pr-6 pl-6  rounded-full">S'inscrire</a>
+            <span class="inline-flex text-xl ml-12"> 
+                <span class="material-symbols-outlined mr-3 text-3xl">
+                play_circle
+                </span>
+                Voir plus
+            </span>
+           </p>
+        </div>
+        <div class=" w-fit h-1/2  pt-20"> 
+            <img src="images/hero-img.png" alt="hero image" class=" w-96 animate-bounce duration-[15000ms]">
+        </div>
+       </div>
+   </section>
+   <section class="w-full h-96 bg-red-200 items-center flex">
+    <h1 class=" text-6xl mx-36 items-center">alex</h1>
+   </section>
+   <section class="w-full h-96 bg-green-200 items-center flex">
+    <h1 class=" text-6xl mx-36 items-center">alex</h1>
    </section>
 </body>
 </html>
